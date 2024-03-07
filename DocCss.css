@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.learn-more {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.note {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.operation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Edit{
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    /* display: none; */
+}
+
+.hidden {
+    display: none;
+}
